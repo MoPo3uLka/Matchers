@@ -1,2 +1,5 @@
-.node_modules
-.coverage
+# Зависимости
+node_modules/
+
+# Отчёты о покрытии тестами
+coverage/
