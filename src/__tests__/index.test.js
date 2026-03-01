@@ -28,7 +28,7 @@ test('следует сохранить исходный массив', () => {
     { name: 'мечник', health: 10 },
     { name: 'маг', health: 100 },
   ];
-  const originalCopy = heroes.map(hero => ({ ...hero }));
+  const originalCopy = heroes.map((hero) => ({ ...hero }));
   sortHeroes(heroes);
   expect(heroes).toEqual(originalCopy);
 });
